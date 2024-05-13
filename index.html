@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date</title>
+</head>
+<style>
+    body{
+    margin-top:25px;
+    }
+    button{
+        color: white;
+    }
+    #btna{
+        background-color: green;
+    }
+    #btnr{
+        background-color: red;
+    }
+    h1{
+        color:#ff009d;
+        text-decoration: underline 2px wavy #ff009d
+    }
+</style>
+
+<body align="center">
+    
+    <h1>Date</h1>
+    <hr>
+    <p>
+     Today is...
+     
+     <select>
+         <option>month</option>
+         <option>May</option>
+     </select>
+     <select>
+         <option>date</option>
+         <option>13</option>
+     </select>
+     <select>
+         <option>year</option>
+         <option>🌹🧎</option>
+         <option>♥️</option>
+         <option>🤗</option>
+         <option>🙋</option>    
+     </select>
+     </p>
+     
+     <p>
+     <button id="btna" onclick="acpt.play();">
+         Accept</button>
+         <script>
+             const acpt = new Audio();
+             acpt.src = "mai13.mp3";
+         </script>
+         
+         <button id="btnr" onclick="rjct.play();">
+         Reject</button>
+         <script>
+             const rjct = new Audio();
+             rjct.src = "intkam.mp3";
+         </script>
+     </p>
+     <hr>
+     <p>
+         ©anant-p
+     </p>
+</body>
+</html>
